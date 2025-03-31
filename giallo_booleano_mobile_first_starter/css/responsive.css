@@ -1,0 +1,43 @@
+/* Soluzione qui */
+@media screen and (min-width: 760px) {
+
+.container{
+    width: 80%;
+    max-width: 770px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#topbar {
+justify-content: left;
+ }
+
+/* HERO-SECTION */
+ .recipe-origin, h2{
+ display: flex;
+}
+
+ ul, .li{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* BOTTONI SOCIAL */
+.social-networks{
+    margin: 20px;
+}
+
+.btn{
+    padding: 0 30px;
+    font-size: 20px;
+}
+/* BANNER P. */
+.ads{
+    display: flex;
+}
+
+img{
+    float: left;
+    padding: 10px;
+}
+}
