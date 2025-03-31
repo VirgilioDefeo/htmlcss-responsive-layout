@@ -63,38 +63,52 @@
 
     .recipe-card {
         display: flex;
-    
+
     }
-    
-    .recipe-video{
+
+    .recipe-video {
         width: 70%;
 
     }
-   .quick-notes ul,
+
+    .quick-notes ul,
     .li {
         flex-direction: column;
     }
 
-    .social-network{
+    .social-network {
         display: flex;
     }
 
-.btn .label {
-    display:flex;
-    font-size: 15px;
+    .btn .label {
+        display: flex;
+        font-size: 15px;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    address,
+    #text {
+        display: flex;
+    }
+
+    nav .ul {
+        display: flex;
+    }
 }
 
-footer{
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
+/* BONUS */
 
-address, #text{
-    display: flex;
-}
-nav .ul{
-    display: flex;
-}
+@media screen and (min-width:576px) {
+    img {
+        float: left;
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 30px;
+    }
+
 }
