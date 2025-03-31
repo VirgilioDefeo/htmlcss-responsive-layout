@@ -1,43 +1,100 @@
 /* Soluzione qui */
+/* SEZIONE TABLET */
 @media screen and (min-width: 760px) {
 
-.container{
-    width: 80%;
-    max-width: 770px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    .container {
+        width: 80%;
+        max-width: 770px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    #topbar {
+        justify-content: left;
+    }
+
+    /* HERO-SECTION */
+    .recipe-origin,
+    h2 {
+        display: flex;
+    }
+
+    ul,
+    .li {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    /* BOTTONI SOCIAL */
+    .social-networks {
+        margin: 20px;
+    }
+
+    .btn {
+        padding: 0 30px;
+        font-size: 20px;
+    }
+
+    /* BANNER P. */
+    .ads {
+        display: flex;
+    }
+
+    img {
+        float: left;
+        padding: 10px;
+    }
 }
 
-#topbar {
-justify-content: left;
- }
 
-/* HERO-SECTION */
- .recipe-origin, h2{
- display: flex;
+/* SEZIONE DESKTOP */
+@media screen and (min-width:992px) {
+
+    .container {
+        display: flex;
+        width: 90%;
+        max-width: 1080px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+
+
+    .recipe-card {
+        display: flex;
+    
+    }
+    
+    .recipe-video{
+        width: 70%;
+
+    }
+   .quick-notes ul,
+    .li {
+        flex-direction: column;
+    }
+
+    .social-network{
+        display: flex;
+    }
+
+.btn .label {
+    display:flex;
+    font-size: 15px;
 }
 
- ul, .li{
+footer{
+    height: auto;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-/* BOTTONI SOCIAL */
-.social-networks{
-    margin: 20px;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.btn{
-    padding: 0 30px;
-    font-size: 20px;
-}
-/* BANNER P. */
-.ads{
+address, #text{
     display: flex;
 }
-
-img{
-    float: left;
-    padding: 10px;
+nav .ul{
+    display: flex;
 }
 }
